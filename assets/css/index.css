@@ -2,8 +2,10 @@
 
 :root {
     --nav-color: #403233;
-    --background: #F19A3E;
-    --lettermd: #ABEDC6;
+    --background: #DB8239;
+    --background-h: #FFA55C;
+    --lettermd: #40220A;
+    --letterlg: #5fa37b;
 }
 * {
     margin: 0;
@@ -12,7 +14,9 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-
+body {
+    background-color: var(--background-h);
+}
 header {
     display: flex;
     height: 65px;
@@ -23,6 +27,7 @@ header {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background);
     position: fixed;
+    top: 0;
 }
 
 .logo {
@@ -56,4 +61,66 @@ header {
     border-radius: 10px;
     padding: 4px;
     cursor: pointer;
+}
+#hero {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-h);
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.hero-img {
+    height: 250px;
+    width: 400px;
+    border-radius: 1rem;
+    box-shadow: 2rem;
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+.hero-info h1 {
+    font-size: 60px;
+}
+.hero-info p {
+    font-size: 20px;
+}
+.hero-button {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+.primary-button {
+    padding: 15px;
+    color: var(--background);
+    border-radius: 2rem;
+    background-color: var(--lettermd);
+    text-align: center;
+}
+.secondary-button {
+    padding: 15px;
+    color: var(--lettermd);
+    border-radius: 2rem;
+    background-color: var(--background);
+    text-align: center;
+    border: 2px solid var(--lettermd);
+}
+.parraf-introductory {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.parraf-introductory p > span {
+    font-weight: bold;
 }
