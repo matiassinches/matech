@@ -46,6 +46,7 @@ header {
 
 .navbar-list {
     gap: 20px;
+    font-weight: bold;
 }
 
 .navbar-list a {
@@ -140,8 +141,13 @@ header {
     }
     #hero {
         padding-top: 10px;
+
+    }
+    .hero-info {
+        width: 400px;
     }
    .parraf-introductory {
-    padding: 100px 30px;
+    padding: 100px 20px;
+    text-align: center;
    }
 }
