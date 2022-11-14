@@ -124,3 +124,18 @@ header {
 .parraf-introductory p > span {
     font-weight: bold;
 }
+
+@media (max-width: 420px) {
+    header {
+        padding: 0px 2px;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    #hero {
+        padding-top: 10px;
+    }
+   .parraf-introductory {
+    padding: 100px 30px;
+   }
+}
