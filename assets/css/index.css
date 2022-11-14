@@ -127,10 +127,16 @@ header {
 
 @media (max-width: 420px) {
     header {
-        padding: 0px 2px;
+        padding: 0px 5px 0px 5px;
     }
     .logo {
-        margin-right: 20px;
+        margin-right: 10px;
+    }
+    .navbar {
+        gap: 0;
+    }
+    .navbar-list {
+        text-align: center;
     }
     #hero {
         padding-top: 10px;
