@@ -51,10 +51,19 @@ header {
 
 .navbar-list a {
     color: var(--nav-color);
-}
 
+}
+.navbar-list a:hover {
+    color: var(--letterlg);
+    background-color: var(--lettermd);
+    border: 10px solid var(--lettermd);
+    border-radius: 4rem;
+}
 .navbar-list li:first-child > a {
     color: black;
+}
+.navbar-list li:first-child > a:hover {
+    color: var(--letterlg)
 }
 .cart-icon {
     height: 40px;
@@ -103,6 +112,7 @@ header {
     border-radius: 2rem;
     background-color: var(--lettermd);
     text-align: center;
+    border: 1px solid var(--lettermd);
 }
 .secondary-button {
     padding: 15px;
@@ -110,7 +120,13 @@ header {
     border-radius: 2rem;
     background-color: var(--background);
     text-align: center;
-    border: 2px solid var(--lettermd);
+    border: 1px solid var(--lettermd);
+}
+.primary-button:hover, .secondary-button:hover {
+    color: var(--letterlg);
+    background-color: var(--lettermd);
+    border: 1px solid var(--lettermd);
+    border-radius: 2rem;
 }
 .parraf-introductory {
     font-family: 'Roboto', sans-serif;
