@@ -154,6 +154,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 20px;
 }
 .cards-tittle h3 {
     margin-bottom: 20px;
@@ -191,40 +192,53 @@ header {
     display: flex;
     font-family: 'Roboto', sans-serif;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
 }
 .contact-us {
     height: 300px;
+    width: 350px;
     border: 2px solid black;
     border-radius: 2rem;
 }
 .footer-contact h4{
     font-size: 30px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-names img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border: none;
     border-radius: none;
 }
 .contact-names h4{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 .contact-uno {
     margin-bottom: 30px;
 }
+
+
 .contact-one, .contact-two, .contact-three {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 .contact-one img, .contact-two img, .contact-three img {
     margin-right: 10px;
 }
-.icons-footer {
+.list-footer {
     display: flex;
-    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
 }
