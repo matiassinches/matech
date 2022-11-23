@@ -36,6 +36,7 @@
    .contact-us {
     display: flex;
     margin-left: 20px;
+    width: none;
    }
 }
 
